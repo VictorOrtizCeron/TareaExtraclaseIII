@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles/styles.css">
+    <title>Calculador básica</title>
+</head>
+<body>
+    <div>
+        <form class = "formulario" action="/" method="POST">
+            <input class="texto" type="text" name="num1" placeholder="Inserta Primer Número">
+            <select class= "texto" name="operator">
+            <option value="+">+</option>
+            <option value="-">-</option>
+            <option value="*">*</option>
+            <option value="/">/</option>
+            </select>
+            <input class= "texto" type="text" name="num2" placeholder="Inserta Segundo Número">
+            <button class= "texto" type="submit">Calcular</button>
+        </form>
+        <h1> <%= RESULTADO %></h1>
+    </div>
+</body>
+</html> 
